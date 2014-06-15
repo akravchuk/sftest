@@ -1,0 +1,20 @@
+Acme\StoreBundle\Entity\Product:
+    type: entity
+    table: null
+    repositoryClass: Acme\StoreBundle\Entity\ProductRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '200'
+        price:
+            type: float
+        description:
+            type: string
+            length: '200'
+    lifecycleCallbacks: {  }
