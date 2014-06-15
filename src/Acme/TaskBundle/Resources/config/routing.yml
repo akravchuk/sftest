@@ -1,0 +1,8 @@
+acme_form:
+    pattern:  /form
+    defaults: { _controller: AcmeTaskBundle:Default:form }
+
+
+acme_add:
+    pattern:  /add
+    defaults: { _controller: AcmeTaskBundle:Default:add }

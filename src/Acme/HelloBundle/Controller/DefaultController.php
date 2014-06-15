@@ -27,10 +27,12 @@ class DefaultController extends Controller
         echo $foobar."<br>";
 
 
-        return new Response('<html><body>Hellos '."TEST".'!</body></html>');
+        return new Response('<html><body>added information from  '.$request->getHost().'!</body></html>');
         //return $this->render('AcmeHelloBundle:Default:index.html.twig', array('name' => $name));
 
     }
+
+
 
 
 
